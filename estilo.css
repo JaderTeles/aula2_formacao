@@ -26,6 +26,6 @@ body {
 }
 
 
-h1 {
+h1, button {
   color: var(--cor-destaque);
 }
