@@ -16,8 +16,8 @@ const perguntas = [
     {
         enunciado: "Texto2 enunciado",
         alternativas: [
-            "Isso é 2a alternativa",
-            "Isso é 2b alternativa",
+            {texto: "Isso é 5a alternativa", "Isso é 5b alternativa"},
+            {texto: "Isso é 6a alternativa", "Isso é 6b alternativa"}
         ]
     }
 
