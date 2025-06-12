@@ -30,7 +30,7 @@ function mostraPergunta(){
 }
 mostraPergunta();
 
-/*
+
 function mostraAlternativas() {
     for(const alternativa of perguntaAtual.alternativas){
         const botaoAlternativa = document.createElement("button");
@@ -40,4 +40,4 @@ function mostraAlternativas() {
                 mostraPergunta();    })
         caixaAlternativa.appendChild(botaoAlternativa);
     }
-} */
+} 
