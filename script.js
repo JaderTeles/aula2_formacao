@@ -7,8 +7,10 @@ const perguntas = [
     {
     enunciado:"Texto1 enunciado", 
         alternativas: [
-            "Isso é 1a alternativa",
-            "Isso é 1b alternativa"
+            {texto: "Isso é 1a alternativa", "Isso é 1b alternativa"},
+            {texto: "Isso é 2a alternativa", "Isso é 2b alternativa"}
+            
+            
         ]
     },
     {
@@ -18,6 +20,7 @@ const perguntas = [
             "Isso é 2b alternativa",
         ]
     }
+
 ]
 
 let atual = 0;
@@ -28,8 +31,6 @@ function mostraPergunta(){
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     mostraAlternativas()
 }
-mostraPergunta();
-
 
 function mostraAlternativas() {
     for(const alternativa of perguntaAtual.alternativas){
@@ -41,3 +42,5 @@ function mostraAlternativas() {
         caixaAlternativa.appendChild(botaoAlternativa);
     }
 } 
+
+mostraPergunta();
